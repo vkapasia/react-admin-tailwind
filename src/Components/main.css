@@ -1,0 +1,40 @@
+.topbar{
+    background-image: url(../imges/curved0.jpg);
+    background-position-y: 50%;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: 50%;
+    z-index: -1;
+}
+.innerbox{
+    box-shadow: inset 0 0 1px 1px hsla(0,0%,100%,.9),0 20px 27px 0 rgba(0,0,0,.05)!important;
+    margin-top: -35px;
+    background-color: #ffffffd1
+}
+
+.mask{
+    position: absolute;
+    background-size: cover;
+    background-position: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-image: linear-gradient(310deg, #7928ca, #ff0080);
+}
+.avtar{
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    height: 48px;
+    width: 48px;
+    transition: all .2s ease-in-out;
+}
